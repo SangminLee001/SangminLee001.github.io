@@ -1,0 +1,226 @@
+
+@media screen and (max-width: 767px){
+.page6_main_body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../imgs/page6/iPhone6.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    inset: 0px;
+    animation: 1s linear 0s 1 normal forwards running zoom-in;
+    display: block;
+}
+
+
+.page6_img1 img{
+    display: none;
+}
+
+.page6_img2 img{
+    display: none;
+}
+
+.page6_img3 img{
+    display: none;
+}
+
+.page6_img4 img{
+    display: none;
+}
+}
+
+@media screen and (min-width: 768px){
+    .page6_main_body{
+        height: 100vh;
+        width: 100vw;
+        background-color: #59A8FF;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        inset: 0px;
+        animation: 1s linear 0s 1 normal forwards running zoom-in;
+        display: block;
+    }
+
+    .page6_img1{
+        width: 300px;
+        height: auto;
+        position: relative;
+        top: 220px;
+        left: 10%;
+
+    }
+    .page6_img1 img{
+        object-fit: contain;
+        display: flex;
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+
+    .page6_img2{
+        width: 300px;
+        height: auto;
+        position: relative;
+        top: -200px;
+        left: 50%;
+        margin-bottom: 20px;
+    }
+    .page6_img2 img{
+        object-fit: contain;
+        display: flex;
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+
+    .page6_img3{
+        width: 300px;
+        height: auto;
+        position: relative;
+        top: -200px;
+        left: 50%;
+        margin-bottom: 20px;
+    }
+    .page6_img3 img{
+        object-fit: contain;
+        display: flex;
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+
+    .page6_img4{
+        width: 300px;
+        height: auto;
+        position: relative;
+        top: -200px;
+        left: 50%;
+        margin-bottom: 20px;
+    }
+    .page6_img4 img{
+        object-fit: contain;
+        display: flex;
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+
+
+    .phon5_img1 img{
+        display: none;
+    }
+    
+    .phon5_img2 img{
+        display: none;
+    }
+    
+    .phon5_img3 img{
+        display: none;
+    }
+    
+    .phon5_img4 img{
+        display: none;
+    }
+
+}
+
+
+
+
+@media screen and (min-width: 1025px){
+    .page6_main_body{
+        height: 100vh;
+        width: 100vw;
+        background-color: #59A8FF;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        inset: 0px;
+        animation: 1s linear 0s 1 normal forwards running zoom-in;
+        display: block;
+    }
+
+    .page6_img1{
+        width: 400px;
+        height: auto;
+        position: relative;
+        top: 180px;
+        left: 10%;
+
+    }
+    .page6_img1 img{
+        object-fit: contain;
+        display: flex;
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+
+    .page6_img2{
+        width: 500px;
+        height: auto;
+        position: relative;
+        top: -400px;
+        left: 50%;
+        margin-bottom: 20px;
+    }
+    .page6_img2 img{
+        object-fit: contain;
+        display: flex;
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+
+    .page6_img3{
+        width: 500px;
+        height: auto;
+        position: relative;
+        top: -400px;
+        left: 50%;
+        margin-bottom: 20px;
+    }
+    .page6_img3 img{
+        object-fit: contain;
+        display: flex;
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+
+    .page6_img4{
+        width: 500px;
+        height: auto;
+        position: relative;
+        top: -400px;
+        left: 50%;
+        margin-bottom: 20px;
+    }
+    .page6_img4 img{
+        object-fit: contain;
+        display: flex;
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+
+
+    .phon5_img1 img{
+        display: none;
+    }
+    
+    .phon5_img2 img{
+        display: none;
+    }
+    
+    .phon5_img3 img{
+        display: none;
+    }
+    
+    .phon5_img4 img{
+        display: none;
+    }
+
+}

@@ -1,0 +1,165 @@
+@media screen and (max-width: 767px){
+        .page8_main_body{
+            height: 100vh;
+            width: 100vw;
+            background-image: url("../imgs/page8/phon_main.png");
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+            inset: 0px;
+            animation: 1s linear 0s 1 normal forwards running zoom-in;
+            display: block;
+        }
+
+        .phon8_img1{
+            width: auto;
+            height: auto;
+            position: relative;
+            top: 150px;
+            left: 20%;
+        }
+
+        .phon8_img1 img{
+            object-fit: contain;
+            display: flex;
+            float: none;
+            width: 60%;
+            height: auto;
+        }
+    
+        .phon8_img2{
+            width: auto;
+            height: auto;
+            position: relative;
+            top: 200px;
+            left: 20%;
+    
+        }
+        .phon8_img2 img{
+            object-fit: contain;
+            display: flex;
+            float: none;
+            width: 60%;
+            height: auto;
+        }
+        
+
+        .page8_text1 img{
+            display: none;
+        }
+
+        .page8_img1 img{
+            display: none;
+        }
+    
+    }
+    
+    @media screen and (min-width: 768px){
+        .page8_main_body{
+            height: 100vh;
+            width: 100vw;
+            background-image: url("../imgs/page8/page8_main.png");
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+            inset: 0px;
+            animation: 1s linear 0s 1 normal forwards running zoom-in;
+            display: block;
+        }
+
+        .page8_text1{
+            width: auto;
+            height: auto;
+            position: relative;
+            top: 250px;
+            left: 15%;
+        }
+
+        .page8_text1 img{
+            object-fit: contain;
+            display: flex;
+            float: none;
+            width: 70%;
+            height: auto;
+        }
+    
+        .page8_img1{
+            width: auto;
+            height: auto;
+            position: relative;
+            top: 350px;
+            left: 5%;
+    
+        }
+        .page8_img1 img{
+            object-fit: contain;
+            display: flex;
+            float: none;
+            width: 90%;
+            height: auto;
+        }
+
+        .phon8_img1 img{
+            display: none;
+        }
+    
+        .phon8_img2 img{
+            display: none;
+        }
+    
+    }
+    
+    @media screen and (min-width: 1025px){
+        .page8_main_body{
+            height: 100vh;
+            width: 100vw;
+            background-image: url("../imgs/page8/page8_main.png");
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+            inset: 0px;
+            animation: 1s linear 0s 1 normal forwards running zoom-in;
+            display: block;
+        }
+
+        .page8_text1{
+            width: auto;
+            height: auto;
+            position: relative;
+            top: 150px;
+            left: 21%;
+        }
+
+        .page8_text1 img{
+            object-fit: contain;
+            display: flex;
+            float: none;
+            width: 60%;
+            height: auto;
+        }
+    
+        .page8_img1{
+            width: auto;
+            height: auto;
+            position: relative;
+            top: 160px;
+            left: 5%;
+    
+        }
+        .page8_img1 img{
+            object-fit: contain;
+            display: flex;
+            float: none;
+            width: 90%;
+            height: auto;
+        }
+
+        .phon8_img1 img{
+            display: none;
+        }
+    
+        .phon8_img2 img{
+            display: none;
+        }
+    
+    }

@@ -1,0 +1,159 @@
+@media screen and (max-width: 767px){
+    .page7_main_body{
+        height: 100vh;
+        width: 100vw;
+        background-image: url("../imgs/page7/phon_main.png");
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        inset: 0px;
+        animation: 1s linear 0s 1 normal forwards running zoom-in;
+        display: block;
+    }
+    
+    .page7_text1{
+        width: auto;
+        height: auto;
+        position: relative;
+        top: 200px;
+        left: 10%;
+    }
+
+    .page7_text1 img{
+        object-fit: contain;
+        display: flex;
+        float: none;
+        width: 60%;
+        height: auto;
+    }
+
+    .page7_img1{
+        width: auto;
+        height: auto;
+        position: relative;
+        top: 350px;
+        left: 0%;
+
+    }
+    .page7_img1 img{
+        object-fit: contain;
+        display: flex;
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+    
+    }
+    
+    @media screen and (min-width: 768px){
+        .page7_main_body{
+            height: 100vh;
+            width: 100vw;
+            background-image: url("../imgs/page7/main1.png");
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+            inset: 0px;
+            animation: 1s linear 0s 1 normal forwards running zoom-in;
+            display: block;
+        }
+
+        .page7_text1{
+            width: auto;
+            height: auto;
+            position: relative;
+            top: 250px;
+            left: 40%;
+        }
+
+        .page7_text1 img{
+            object-fit: contain;
+            display: flex;
+            float: none;
+            width: 50%;
+            height: auto;
+        }
+    
+        .page7_img1{
+            width: auto;
+            height: auto;
+            position: relative;
+            top: 300px;
+            left: 10%;
+    
+        }
+        .page7_img1 img{
+            object-fit: contain;
+            display: flex;
+            float: none;
+            width: 80%;
+            height: auto;
+        }
+    
+    }
+    
+    @media screen and (min-width: 1025px){
+        .page7_main_body{
+            height: 100vh;
+            width: 100vw;
+            background-image: url("../imgs/page7/main1.png");
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+            inset: 0px;
+            animation: 1s linear 0s 1 normal forwards running zoom-in;
+            display: block;
+        }
+
+        .page7_text1{
+            width: auto;
+            height: auto;
+            position: relative;
+            top: 120px;
+            left: 40%;
+        }
+
+        .page7_text1 img{
+            object-fit: contain;
+            display: flex;
+            float: none;
+            width: 50%;
+            height: auto;
+        }
+    
+        .page7_img1{
+            width: auto;
+            height: auto;
+            position: relative;
+            top: 160px;
+            left: 10%;
+    
+        }
+        .page7_img1 img{
+            object-fit: contain;
+            display: flex;
+            float: none;
+            width: 70%;
+            height: auto;
+        }
+    
+        
+    
+    
+        .phon5_img1 img{
+            display: none;
+        }
+        
+        .phon5_img2 img{
+            display: none;
+        }
+        
+        .phon5_img3 img{
+            display: none;
+        }
+        
+        .phon5_img4 img{
+            display: none;
+        }
+    
+    }

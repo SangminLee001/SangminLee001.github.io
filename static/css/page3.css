@@ -1,0 +1,170 @@
+
+.page3_main_body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../imgs/page3/phon_main1.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    inset: 0px;
+    animation: 1s linear 0s 1 normal forwards running zoom-in;
+    display: block;
+}
+
+.page3_img1 img{
+    display: none
+}
+
+.page3_img2 img{
+    display: none
+}
+
+.phon3_img1{
+    position: relative;
+    top: 70px;
+    left: 50px;
+}
+
+.phon3_img2{
+    position: relative;
+    top: 70px;
+    left: 400px;
+}
+
+.phon3_img3{
+    position: relative;
+    top: 70px;
+    left: 50px;
+}
+
+.phon3_img1 img{
+    width: 300px;
+}
+
+.phon3_img2 img{
+    width: 300px;
+}
+
+.phon3_img3 img{
+    width: 300px;
+}
+
+
+@media screen and (min-width: 768px){
+    .page3_main_body{
+        height: 100vh;
+        width: 100vw;
+        background-image: url("../imgs/page3/page_main_1.png");
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        inset: 0px;
+        animation: 1s linear 0s 1 normal forwards running zoom-in;
+        display: block;
+    }
+
+    .page3_img1{
+        width: 500px;
+        height: auto;
+        position: relative;
+        top: 200px;
+        left: 10%;
+    }
+    .page3_img1 img{
+        object-fit: contain;
+        display: flex;
+        float: none;
+        width: 80%;
+        height: auto;
+    }
+
+    .page3_img2{
+        width: auto;
+        height: auto;
+        position: relative;
+        top: -100px;
+        left: 50%;
+
+    }
+    .page3_img2 img{
+        object-fit: contain;
+        display: flex;
+        float: none;
+        width: 40%;
+        height: auto;
+    }
+
+    .phon3_img1{
+        display: none;
+    }
+
+    .phon3_img2{
+        display: none;
+    }
+
+    .phon3_img3{
+        display: none;
+    }
+
+}
+
+
+
+
+@media screen and (min-width: 1025px){
+    .page3_main_body{
+        height: 100vh;
+        width: 100vw;
+        background-image: url("../imgs/page3/page_main_1.png");
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        inset: 0px;
+        animation: 1s linear 0s 1 normal forwards running zoom-in;
+        display: block;
+    }
+
+    .page3_img1{
+        width: 500px;
+        height: auto;
+        position: relative;
+        top: 200px;
+        left: 10%;
+    }
+    .page3_img1 img{
+        object-fit: contain;
+        display: flex;
+        float: none;
+        width: 80%;
+        height: auto;
+    }
+
+    .page3_img2{
+        width: auto;
+        height: auto;
+        position: relative;
+        top: -100px;
+        left: 50%;
+
+    }
+    .page3_img2 img{
+        object-fit: contain;
+        display: flex;
+        float: none;
+        width: 40%;
+        height: auto;
+    }
+
+    .phon3_img1{
+        display: none;
+    }
+
+    .phon3_img2{
+        display: none;
+    }
+
+    .phon3_img3{
+        display: none;
+    }
+
+}
