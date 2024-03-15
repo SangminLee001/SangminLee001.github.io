@@ -21,6 +21,7 @@
 
 .phon3_img1{
     position: relative;
+    width: 300px;
     top: 70px;
     left: 50px;
 }
@@ -34,6 +35,7 @@
 
 .phon3_img3{
     position: relative;
+    width: 300px;
     top: 100px;
     left: 40px;
 }

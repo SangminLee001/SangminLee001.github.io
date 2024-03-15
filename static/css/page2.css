@@ -14,6 +14,7 @@
         width: auto;
         height: auto;
         position: relative;
+        width: 314px;
         top: 200px;
         left: 20%;
     }
@@ -21,7 +22,7 @@
         object-fit: contain;
         display: flex;
         float: none;
-        width: 60%;
+        width: 100%;
         height: auto;
     }
 
@@ -29,6 +30,7 @@
         width: auto;
         height: auto;
         position: relative;
+        width: 262px;
         top: 250px;
         left: 25%;
 
@@ -37,7 +39,7 @@
         object-fit: contain;
         display: flex;
         float: none;
-        width: 50%;
+        width: 100%;
         height: auto;
     }
 
