@@ -6,6 +6,10 @@
 }
 body{
     background-color: #dbdbdb;
+    -webkit-user-select: none !important;
+    -moz-user-select: -moz-none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
 }
 
 p{
@@ -17,20 +21,20 @@ p{
 
 
 .floating-btn {
-    width: 200px;
-    height: 250px;
+    width: 160px;
+    height: 200px;
     position: fixed;
-    bottom: 100px;
-    right: 20px;
-    top: 50px;
+    bottom: 80px;
+    right: -30px;
+    top: 20px;
     cursor: pointer;
     z-index: 1; /* 팝업 창 위에 나타나도록 z-index 추가 */
     margin-right: 30px;
 }
 
 .floating-btn img {
-    width: 200px;
-    height: 250px;
+    width: 160px;
+    height: 200px;
     -webkit-user-drag: none;
     -khtml-user-drag: none;
     -moz-user-drag: none;
@@ -278,7 +282,7 @@ p{
 
 .form-elements{
     width: 300px;
-    height: 400px;
+    height: 450px;
     margin: 0 auto;
 
 }
