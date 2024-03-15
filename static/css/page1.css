@@ -1,8 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    overflow-x:hidden;
-    overflow-y:hidden;
+
 }
 
     .page1_main_body{
@@ -20,6 +19,13 @@ body{
 
 
 @media screen and (min-width: 768px){
+    body{
+        margin: 0px;
+        padding: 0px;
+        overflow-x:hidden;
+        overflow-y:hidden;
+    }
+
     .page1_main_body{
         height: 100vh;
         width: 100vw;
@@ -36,6 +42,13 @@ body{
 
 
 @media screen and (min-width: 1025px){
+    body{
+        margin: 0px;
+        padding: 0px;
+        overflow-x:hidden;
+        overflow-y:hidden;
+    }
+
     .page1_main_body{
         height: 100vh;
         width: 100vw;

@@ -1,8 +1,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    overflow-x:hidden;
-    overflow-y:hidden;
 }
 body{
     background-color: #dbdbdb;
@@ -45,7 +43,7 @@ p{
 .popup {
     display: none;
     position: fixed;
-    left: 30px !important;
+    left: 5px !important;
     top: 150px !important;
     width: 330px;
     height: 650px;
