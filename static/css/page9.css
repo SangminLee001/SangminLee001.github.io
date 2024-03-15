@@ -17,7 +17,7 @@
         position: relative;
         width: 105px;
         top: 70px;
-        left: 40%;
+        left: 35%;
     }
 
     .phon9_img1 img{
@@ -34,14 +34,14 @@
         position: relative;
         width: 335px;
         top: 65px;
-        left: 20%;
+        left: 5%;
 
     }
     .phon9_img2 img{
         object-fit: contain;
         display: flex;
         float: none;
-        width: 100%;
+        width: 90%;
         height: auto;
     }
     
@@ -143,7 +143,7 @@
         width: auto;
         height: auto;
         position: relative;
-        top: 200px;
+        top: 140px;
         left: 23%;
 
     }

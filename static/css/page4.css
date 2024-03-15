@@ -15,18 +15,18 @@
     position: relative;
     width: 262px;
     top: 100px;
-    left: 20%;
+    left: 10%;
 }
 
 .phon4_img2{
     position: relative;
     width: 200px;
     top: 120px;
-    left: 200px;
+    left: 100px;
 }
 
 .phon4_img1 img{
-    width: 100%;
+    width: 90%;
 }
 
 .phon4_img2 img{

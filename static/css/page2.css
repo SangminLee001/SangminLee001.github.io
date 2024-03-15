@@ -14,9 +14,9 @@
         width: auto;
         height: auto;
         position: relative;
-        width: 314px;
+        width: 252px;
         top: 200px;
-        left: 20%;
+        left: 15%;
     }
     .page2_img1 img{
         object-fit: contain;
@@ -30,9 +30,9 @@
         width: auto;
         height: auto;
         position: relative;
-        width: 262px;
+        width: 210px;
         top: 250px;
-        left: 25%;
+        left: 20%;
 
     }
     .page2_img2 img{

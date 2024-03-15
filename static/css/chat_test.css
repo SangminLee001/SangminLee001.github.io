@@ -23,7 +23,7 @@ p{
     height: 130px;
     position: fixed;
     bottom: 80px;
-    right: 330px;
+    right: 230px;
     top: 20px;
     cursor: pointer;
     z-index: 1; /* 팝업 창 위에 나타나도록 z-index 추가 */
