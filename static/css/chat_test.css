@@ -43,7 +43,7 @@ p{
 .popup {
     display: none;
     position: fixed;
-    left: 5px !important;
+    left: 17px !important;
     top: 150px !important;
     width: 330px;
     height: 650px;
