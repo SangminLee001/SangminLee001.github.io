@@ -29,12 +29,13 @@
     position: relative;
     top: 70px;
     left: 400px;
+    display: none;
 }
 
 .phon3_img3{
     position: relative;
-    top: 70px;
-    left: 50px;
+    top: 100px;
+    left: 40px;
 }
 
 .phon3_img1 img{
@@ -43,6 +44,7 @@
 
 .phon3_img2 img{
     width: 300px;
+    display: none;
 }
 
 .phon3_img3 img{
