@@ -41,7 +41,6 @@ function myFunction() {
 
 
 
-
 //============================플로팅 버튼 동작 코드============================
 //============================플로팅 버튼 동작 코드============================
 //============================플로팅 버튼 동작 코드============================
@@ -50,28 +49,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const floatingBtn = document.getElementById('floatingBtn');
     const popupWindow = document.getElementById('popupWindow');
     const closeBtn = document.getElementById('closeBtn');
-    let isDragging = false;
-    let offsetX, offsetY;
-
-    floatingBtn.addEventListener('mousedown', function (e) {
-        isDragging = true;
-        offsetX = e.clientX - popupWindow.getBoundingClientRect().left;
-        offsetY = e.clientY - popupWindow.getBoundingClientRect().top;
-    });
-
-    document.addEventListener('mousemove', function (e) {
-        if (isDragging) {
-            const x = e.clientX - offsetX;
-            const y = e.clientY - offsetY;
-
-            popupWindow.style.left = `${x}px`;
-            popupWindow.style.top = `${y}px`;
-        }
-    });
-
-    document.addEventListener('mouseup', function () {
-        isDragging = false;
-    });
 
     floatingBtn.addEventListener('click', function (e) {
         e.stopPropagation(); // Stop the click event from reaching the main page
@@ -79,26 +56,20 @@ document.addEventListener('DOMContentLoaded', function () {
         if (popupWindow.style.display === 'none' || popupWindow.style.display === '') {
             popupWindow.style.display = 'block';
 
-            // Add event listener to the popup window's scroll
-            popupWindow.addEventListener('scroll', function (e) {
-                e.stopPropagation(); // Stop the scroll event from reaching the main page
-            });
-
             // Disable body scroll when the popup is open
             document.body.style.overflow = 'hidden';
         } else {
             popupWindow.style.display = 'none';
-
-            // Enable body scroll when the popup is closed
-            document.body.style.overflow = 'auto';
         }
     });
 
     closeBtn.addEventListener('click', function () {
         popupWindow.style.display = 'none';
 
-        // Enable body scroll when the popup is closed
-        document.body.style.overflow = 'auto';
+        // Enable body scroll only if there are no other popups open
+        if (!document.querySelector('.popup:not([style*="display: none"])')) {
+            document.body.style.overflow = 'auto';
+        }
     });
 
     // Add this block to prevent the scroll event on the popup window from reaching the main page

@@ -152,6 +152,8 @@
 
     }
     .page3_img2 img{
+        width: auto;
+        height: auto;
         object-fit: contain;
         display: flex;
         float: none;

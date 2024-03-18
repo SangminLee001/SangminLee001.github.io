@@ -8,6 +8,7 @@ body{
     -moz-user-select: -moz-none !important;
     -ms-user-select: none !important;
     user-select: none !important;
+    min-width: 100%;
 }
 
 p{
