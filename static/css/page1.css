@@ -13,32 +13,30 @@ body{
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover; /* 이 값을 변경할 필요가 있을 수도 있습니다 */
-    inset: 0;
-    animation: 1s linear 0s 1 normal forwards running zoom-in;
     display: block;
 }
 
 .app_button_body{
-    width: 450px;
+    width: 399px;
     height: 100px;
     float: right;
     position: absolute;
         top: 95%;
-        left: 48%;
+        left: 55%;
         transform: translate(-50%, -50%);
 }
 
 .app_button_url{
-    width: 120px;
-    height: 63px;
+    width: 90px;
+    height: 43px;
     float: left;
-    margin-left: 30px;
+    margin-left: 20px;
     display: block;
 }
 
 .app_button_url img{
-    width: 120px;
-    height: 63px;
+    width: 90px;
+    height: 43px;
     display: block;
 }
 
