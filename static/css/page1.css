@@ -57,46 +57,46 @@ html, body{
         background-image: url("../imgs/page1/back.png");
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover; /* 태블릿에서는 비율 유지 */
+        background-size: cover; /* 비율 유지 */
     }
 
     .app_button_body {
-        width: 500px;
-        height: 80px;
+        width: 200%; /* 부모 요소의 35%로 설정 */
+        height: auto;
         position: absolute;
-        top: 42%;
-        left: 70%;
+        top: 142%;
+        left: 90%;
         transform: translate(-50%, -50%);
     }
 
     .app_button_url {
-        width: 125px;
-        height: 68px;
-        margin-left: 25px;
-        margin-top: 120px;
+        width: 20%; /* 부모 요소의 20%로 설정 */
+        height: auto;
+        margin-left: 5%;
+        margin-top: 5%;
         position: relative;
-        left: 50px;
+        left: 0;
     }
 
     .a_img {
-        width: 100%;
+        width: 100%; /* 부모 요소에 맞게 조정 */
         height: auto;
         object-fit: contain;
         display: flex;
         float: none;
     }
 
-    .logo1{
-        width: 250px;
+    .logo1 {
+        width: 30%; /* 부모 요소의 25%로 설정 */
         height: auto;
         position: absolute;
         top: 27.1%;
-        left: 60.6%;
+        left: 70.6%;
         transform: translate(-50%, -50%);
     }
 
-    .logo1-1{
-        width: 250px;
+    .logo1-1 {
+        width: 100%; /* 부모 요소에 맞게 조정 */
         height: auto;
     }
 }
@@ -104,51 +104,51 @@ html, body{
 /* 데스크톱 (1025px 이상) */
 @media screen and (min-width: 1025px) {
     .page1_main_body {
-        height: 100vh;
         width: 100vw;
+        height: 100vh;
         background-image: url("../imgs/page1/back.png");
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover; /* 데스크톱에서는 화면에 꽉 채우는 방식 */
+        background-size: cover;
     }
 
     .app_button_body {
-        width: 620px;
-        height: 100px;
+        width: 200%; /* 부모 요소의 35%로 설정 */
+        height: auto;
         position: absolute;
-        top: 42%;
-        left: 76.1%;
+        top: 142%;
+        left: 90%;
         transform: translate(-50%, -50%);
     }
 
     .app_button_url {
-        width: 145px;
-        height: 68px;
-        margin-left: 25px;
-        margin-top: 150px;
+        width: 20%; /* 부모 요소의 20%로 설정 */
+        height: auto;
+        margin-left: 5%;
+        margin-top: 5%;
         position: relative;
-        left: 20px;
+        left: 0;
     }
 
     .a_img {
-        width: 100%;
+        width: 100%; /* 부모 요소에 맞게 조정 */
         height: auto;
         object-fit: contain;
         display: flex;
         float: none;
     }
 
-    .logo1{
-        width: 350px;
+    .logo1 {
+        width: 20%; /* 부모 요소의 25%로 설정 */
         height: auto;
         position: absolute;
         top: 27.1%;
-        left: 65.6%;
+        left: 70.6%;
         transform: translate(-50%, -50%);
     }
 
-    .logo1-1{
-        width: 330px;
+    .logo1-1 {
+        width: 100%; /* 부모 요소에 맞게 조정 */
         height: auto;
     }
 }
