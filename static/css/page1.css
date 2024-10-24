@@ -1,65 +1,107 @@
+/* 공통 설정 */
 body{
-    margin: 0px;
-    padding: 0px;
-    overflow-x:hidden;
-    overflow-y:hidden;
-    overflow: hidden; /* Always hide the scrollbar */
-    
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
-    .page1_main_body{
-        height: 100vh;
+.page1_main_body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../imgs/page1/m_back.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover; /* 이 값을 변경할 필요가 있을 수도 있습니다 */
+    inset: 0;
+    animation: 1s linear 0s 1 normal forwards running zoom-in;
+    display: block;
+}
+
+.app_button_body{
+    width: 450px;
+    height: 100px;
+    float: right;
+    position: absolute;
+        top: 95%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+}
+
+.app_button_url{
+    width: 120px;
+    height: 63px;
+    float: left;
+    margin-left: 30px;
+    display: block;
+}
+
+.app_button_url img{
+    width: 120px;
+    height: 63px;
+    display: block;
+}
+
+/* 태블릿 (768px ~ 1024px) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .page1_main_body {
         width: 100vw;
-        background-image: url("../imgs/page1/page_main3.png");
+        height: 100vh;
+        background-image: url("../imgs/page1/back.png");
         background-repeat: no-repeat;
-        background-position: 50% 50%;
-        background-size: cover;
-        inset: 0px;
-        animation: 1s linear 0s 1 normal forwards running zoom-in;
-        display: block;
+        background-position: center;
+        background-size: cover; /* 태블릿에서는 비율 유지 */
     }
 
-
-
-@media screen and (min-width: 768px){
-    body{
-        margin: 0px;
-        padding: 0px;
-
+    .app_button_body {
+        width: 500px;
+        height: 80px;
+        position: absolute;
+        top: 42%;
+        left: 70%;
+        transform: translate(-50%, -50%);
     }
 
-    .page1_main_body{
-        height: 100vh;
-        width: 100vw;
-        background-image: url("../imgs/page1/page_main2.png");
-        background-repeat: no-repeat;
-        background-position: 50% 50%;
-        background-size: cover;
+    .app_button_url {
+        width: 130px;
+        height: 60px;
+        margin-left: 20px;
+    }
 
-        inset: 0px;
-        animation: 1s linear 0s 1 normal forwards running zoom-in;
-        display: block;
+    .app_button_url img {
+        width: 130px;
+        height: 60px;
     }
 }
 
-
-@media screen and (min-width: 1025px){
-    body{
-        margin: 0px;
-        padding: 0px;
-        overflow-x:hidden;
-        overflow-y:hidden;
-    }
-
-    .page1_main_body{
+/* 데스크톱 (1025px 이상) */
+@media screen and (min-width: 1025px) {
+    .page1_main_body {
         height: 100vh;
         width: 100vw;
-        background-image: url("../imgs/page1/page_main.jpg");
+        background-image: url("../imgs/page1/back.png");
         background-repeat: no-repeat;
-        background-position: 50% 50%;
-        background-size: cover;
-        inset: 0px;
-        animation: 1s linear 0s 1 normal forwards running zoom-in;
-        display: block;
+        background-position: center;
+        background-size: cover; /* 데스크톱에서는 화면에 꽉 채우는 방식 */
+    }
+
+    .app_button_body {
+        width: 620px;
+        height: 100px;
+        position: absolute;
+        top: 42%;
+        left: 76.1%;
+        transform: translate(-50%, -50%);
+    }
+
+    .app_button_url {
+        width: 145px;
+        height: 68px;
+        margin-left: 30px;
+    }
+
+    .app_button_url img {
+        width: 145px;
+        height: 68px;
     }
 }
