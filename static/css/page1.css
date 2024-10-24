@@ -22,7 +22,7 @@ html, body{
     float: right;
     position: absolute;
         top: 92%;
-        left: 50%;
+        left: 48%;
         transform: translate(-50%, -50%);
 }
 
