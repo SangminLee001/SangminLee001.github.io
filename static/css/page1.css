@@ -3,7 +3,7 @@ html, body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    overflow-y: hidden;
+
 }
 
 .page1_main_body{
@@ -34,10 +34,19 @@ html, body{
     display: block;
 }
 
-.app_button_url img{
+.a_img{
     width: 90px;
     height: 43px;
     display: block;
+}
+
+.logo1{
+    width: 0px;
+
+}
+
+.logo1-1{
+    width: 0px;
 }
 
 /* 태블릿 (768px ~ 1024px) */
@@ -61,14 +70,34 @@ html, body{
     }
 
     .app_button_url {
-        width: 130px;
-        height: 60px;
-        margin-left: 20px;
+        width: 125px;
+        height: 68px;
+        margin-left: 25px;
+        margin-top: 120px;
+        position: relative;
+        left: 50px;
     }
 
-    .app_button_url img {
-        width: 130px;
-        height: 60px;
+    .a_img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        display: flex;
+        float: none;
+    }
+
+    .logo1{
+        width: 250px;
+        height: auto;
+        position: absolute;
+        top: 27.1%;
+        left: 60.6%;
+        transform: translate(-50%, -50%);
+    }
+
+    .logo1-1{
+        width: 250px;
+        height: auto;
     }
 }
 
@@ -95,11 +124,31 @@ html, body{
     .app_button_url {
         width: 145px;
         height: 68px;
-        margin-left: 30px;
+        margin-left: 25px;
+        margin-top: 150px;
+        position: relative;
+        left: 20px;
     }
 
-    .app_button_url img {
-        width: 145px;
-        height: 68px;
+    .a_img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        display: flex;
+        float: none;
+    }
+
+    .logo1{
+        width: 350px;
+        height: auto;
+        position: absolute;
+        top: 27.1%;
+        left: 65.6%;
+        transform: translate(-50%, -50%);
+    }
+
+    .logo1-1{
+        width: 330px;
+        height: auto;
     }
 }
