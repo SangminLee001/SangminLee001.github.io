@@ -1,5 +1,5 @@
 /* 공통 설정 */
-body{
+html, body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -17,12 +17,12 @@ body{
 }
 
 .app_button_body{
-    width: 399px;
-    height: 100px;
+    width: 330px;
+    height: 43px;
     float: right;
     position: absolute;
-        top: 95%;
-        left: 55%;
+        top: 92%;
+        left: 50%;
         transform: translate(-50%, -50%);
 }
 
