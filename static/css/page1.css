@@ -3,8 +3,14 @@ html, body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-
 }
+
+
+
+
+
+
+
 
 .page1_main_body{
     width: 100vw;
@@ -21,6 +27,44 @@ html, body{
     height: 10vh;
     background-color: #834C3D;
 }
+
+.app_button_body2{
+    width: 325px;
+    height: 43px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.app_button_url2{
+    width: 90px;
+    height: 43px;
+    float: left;
+    padding: 7px;
+    display: block;
+}
+
+.a_img2{
+    width: 90px;
+    height: 43px;
+    display: block;
+}
+
+
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .app_button_body{
+        display: none;
+    }
+    
+    .app_button_url{
+        display: none;
+    }
+    
+    .a_img{
+        display: none;
+    }
+}
+
 
 .app_button_body{
     width: 330px;
@@ -109,6 +153,20 @@ html, body{
     .page1_bottom_body{
         display: none;
     }
+
+    .app_button_body2{
+        display: none;
+    }
+    
+    .app_button_url2{
+        display: none;
+    }
+    
+    .a_img2{
+        display: none;
+
+    }
+
 }
 
 /* 데스크톱 (1025px 이상) */
@@ -162,7 +220,24 @@ html, body{
         height: auto;
     }
 
+
     .page1_bottom_body{
         display: none;
     }
+
+
+    .app_button_body2{
+        display: none;
+    }
+    
+    .app_button_url2{
+        display: none;
+    }
+    
+    .a_img2{
+        display: none;
+
+    }
+
+
 }
