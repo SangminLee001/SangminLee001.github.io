@@ -38,7 +38,7 @@
 
     <meta charset="UTF-8">
     <link rel="icon" href="/static/imgs/main_page/flowting.png">
-    <title>대한민국 챗봇 스타일리스트 설계장</title>
+    <title>설계장</title>
 </head>
 
 
@@ -73,8 +73,8 @@
 <body style="background-color: black;">
 <div class="page1_main_body">
     <div class="logo1" >
-        <img  class="logo1-1" src="./static/imgs/page1/logo.png" alt="" data-aos="zoom-in"
-        data-aos-anchor-placement="top-center" data-aos-duration="3000">
+        <img  class="logo1-1" src="./static/imgs/page1/logo.png" alt="" data-aos="fade-center"
+        data-aos-anchor-placement="center-center" data-aos-once="false" data-aos-delay="1000" data-aos-duration="3000">
         <div class="app_button_body">
             <a class="app_button_url" href="https://play.google.com/store/apps/details?id=com.masterseol.app.codling&pcampaignid=web_share"><img class="a_img" src="./static/imgs/page1/google_button.png" alt=""></a>
             <a class="app_button_url" href="https://apps.apple.com/kr/app/%EC%84%A4%EA%B3%84%EC%9E%A5/id6502892929"><img class="a_img" src="./static/imgs/page1/apple_button.png" alt=""></a>
@@ -337,7 +337,15 @@
 
 
 <script>
-    AOS.init();
+    AOS.init(
+        {
+            duration: 3000,  // 애니메이션 지속 시간 (밀리초)
+            delay: 1000,  // 애니메이션 지연 시간 (밀리초)
+            offset: 0,  // 스크롤 감지의 시작 위치 (픽셀)
+        }
+        
+
+    );
 
 
 </script>
